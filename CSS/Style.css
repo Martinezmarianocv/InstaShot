@@ -1,0 +1,126 @@
+body {
+    background: rgb(250, 250, 225);
+    display: flex;
+    background-image: linear-gradient(150deg, #00001a, #000000);
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.fotoperfil {
+    justify-self: left;
+    align-items: center;
+    width: 150px;
+    border-radius: 90%;
+    align-self: center;
+}
+
+span{
+    display: block;
+    justify-content: left;
+
+}
+
+.nombreusuario {
+    color: antiquewhite;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.Publicaciones {
+    background:linear-gradient(150deg, #050569, #030117);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.Seguidores {
+    background:linear-gradient(150deg, #050569, #030117);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.Seguidos {
+    background:linear-gradient(150deg, #050569, #030117);
+    border-radius: 10px;
+    padding: 5px;
+    width: 100px;
+    box-sizing: border-box;
+}
+
+.info-usuario {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: block;
+    justify-content: left;
+    margin-left: 10px;
+}
+
+.info-h3 {
+    margin-bottom: 5px;
+    color: antiquewhite;
+}
+
+.info-ul{
+    margin: 0;
+    padding: 0;
+}
+
+.info-usuario-secundaria {
+    list-style-type: none;
+    color: aliceblue;
+}
+
+.container-botones {
+    display: flex;
+    justify-content: left;
+    margin: 30px 10px;
+    gap: 1px;
+}
+
+.button {
+    width: 137px;
+    font-size: 17px;
+    background: #0e1718;
+    color: antiquewhite;
+}
+
+.button1 {
+    font-size: 17px;
+    background: #0e1718;
+    color: antiquewhite;
+}
+
+.button:hover {
+    background: #030117;
+}
+
+.button1:hover {
+    background: #030117;
+}
+
+
